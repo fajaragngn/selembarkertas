@@ -15,7 +15,7 @@ body {
 	background: #181E25;
 	width: 100%;
 	min-height: 100%;
-	max-width: 700px;
+	max-width: 500px;
 	margin: 0 auto;
 	padding: 20px 5% 60px
 }
@@ -127,7 +127,7 @@ footer {
 	padding: 8px 5%;
 	background: #2A343E;
 	width: 100%;
-	max-width: 700px
+	max-width: 500px
 }
 
 @media only screen and (max-width: 600px) {
