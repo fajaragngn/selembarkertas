@@ -28,7 +28,7 @@
         <a href="/"><img src="/img/logo.png" alt="logo selembarkertas" height="80" width="80" class="is-avatar"></a>
         <div>
             <h1>selembarkertas</h1>
-            <h2>p</h2>
+            <h2>podcast</h2>
         </div>
     </header>
 
@@ -41,14 +41,12 @@
             <div v-if="currentItem">
                 <iframe :src="'https://anchor.fm/selembarkertas/embed/episodes/' + currentItem.anchor" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
                 <p> ${currentItem.snippet} </p>
-                <a :href="currentItem.link" class="btn">Link/Catatan </a>
             </div>
 
             <div v-else>
                 
                     <iframe src="https://anchor.fm/selembarkertas/embed/episodes/" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
                     <p>  </p>
-                    <a href="/posts/" class="btn">Link/Catatan </a>
                 
             </div>
         </section>
