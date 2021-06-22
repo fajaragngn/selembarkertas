@@ -3,10 +3,26 @@
         
         
          {
+            "id" : "10",
+            "title" : "Ragu",
+            "link" : "/ragu/",
+            "snippet": "",
+            "anchor": "10--Ragu-el4r09"
+        }
+        
+        ,  {
+            "id" : "9",
+            "title" : "Jadi sapi warna ungu",
+            "link" : "/jadi-sapi-warna-ungu/",
+            "snippet": "Sapi kok ungu? gak sekalian pelangi aja",
+            "anchor": "09--Jadi-sapi-warna-ungu-eeemhv"
+        }
+        
+        ,  {
             "id" : "8",
             "title" : "Tentukan pilihan",
             "link" : "/tentukan-pilihan/",
-            "snippet": "",
+            "snippet": "Tentukan jalanmu",
             "anchor": "08--Tentukan-pilihan-ee77k3"
         }
         
