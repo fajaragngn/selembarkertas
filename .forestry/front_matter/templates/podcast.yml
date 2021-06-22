@@ -21,5 +21,6 @@ fields:
   name: aliases
   label: aliases
 pages:
+- content/posts/distraksi-saat-belajar.md
 - content/posts/seputar-teknik-informatika-ft.mhs-upb.md
 - content/posts/setelah-lulus-mau-kemana-ft.mhs-upb.md
