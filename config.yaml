@@ -1,0 +1,15 @@
+languageCode : id
+title : selembarkertas
+
+params:
+    description: Waktu kamu gak akan cukup, kerjakan sekarang! Selamat menjadi pendengar.
+
+staticDir: static
+
+permalinks:
+  posts : /:title/
+
+outputs:
+        home : ["HTML", "RSS", "JSON"]
+
+summaryLength: 25

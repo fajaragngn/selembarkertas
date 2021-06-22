@@ -1,0 +1,14 @@
+{
+    "data": [
+        {{ $postCount := len .Site.RegularPages}}
+        {{ range $index, $e := .Site.RegularPages}}
+        {{ if $index }}, {{ end }} {
+            "id" : "{{sub $postCount $index }}",
+            "title" : "{{ .Title }}",
+            "link" : "{{ .Permalink }}",
+            "snippet": "{{ $e.Params.snippet }}",
+            "soundcloud_id": "{{ $e.Params.soundcloud_id }}"
+        }
+        {{ end }}
+    ]
+}
