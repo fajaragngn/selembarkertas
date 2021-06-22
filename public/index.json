@@ -3,6 +3,54 @@
         
         
          {
+            "id" : "8",
+            "title" : "Tentukan pilihan",
+            "link" : "/tentukan-pilihan/",
+            "snippet": "",
+            "soundcloud_id": "08--Tentukan-pilihan-ee77k3"
+        }
+        
+        ,  {
+            "id" : "7",
+            "title" : "Tidak usah risau",
+            "link" : "/tidak-usah-risau/",
+            "snippet": "",
+            "soundcloud_id": "07--Tidak-usah-risau-edj4km"
+        }
+        
+        ,  {
+            "id" : "6",
+            "title" : "Hobi, Passion & Uang",
+            "link" : "/hobi-passion-uang/",
+            "snippet": "",
+            "soundcloud_id": "06--Hobi--Passion--Uang-eb4kji"
+        }
+        
+        ,  {
+            "id" : "5",
+            "title" : "Distraksi saat belajar",
+            "link" : "/distraksi-saat-belajar/",
+            "snippet": "dikala kamu sedang distraksi",
+            "soundcloud_id": "05--Distraksi-saat-belajar-eb30np"
+        }
+        
+        ,  {
+            "id" : "4",
+            "title" : "Setelah lulus mau kemana? ft. mhs UPB",
+            "link" : "/setelah-lulus-mau-kemana-ft.-mhs-upb/",
+            "snippet": "Ngobrol santai #2",
+            "soundcloud_id": "04--Setelah-lulus-mau-kemana--ft--mhs-UPB-eamoh5"
+        }
+        
+        ,  {
+            "id" : "3",
+            "title" : "Seputar Teknik Informatika ft. mhs UPB",
+            "link" : "/seputar-teknik-informatika-ft.-mhs-upb/",
+            "snippet": "Ngobrol santai #1",
+            "soundcloud_id": "03--Seputar-Teknik-Informatika-ft--mhs-UPB-eaitgj"
+        }
+        
+        ,  {
             "id" : "2",
             "title" : "Baik ke orang",
             "link" : "/baik-ke-orang/",
