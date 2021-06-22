@@ -1,4 +1,5 @@
-+++ title = "Baik ke orang" 
++++ 
+title = "Baik ke orang" 
 description = "Awali pagimu dengan secangkir kopi, menemani." 
 snippet = "suka ngopi, ga suka rokok" 
 soundcloud_id = "02--Baik-ke-orang-ea6lr6" 
