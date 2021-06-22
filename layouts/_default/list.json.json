@@ -7,7 +7,7 @@
             "title" : "{{ .Title }}",
             "link" : "{{ .Permalink }}",
             "snippet": "{{ $e.Params.snippet }}",
-            "soundcloud_id": "{{ $e.Params.soundcloud_id }}"
+            "anchor": "{{ $e.Params.anchor }}"
         }
         {{ end }}
     ]

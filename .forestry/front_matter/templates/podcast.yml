@@ -12,8 +12,8 @@ fields:
   name: snippet
   label: snippet
 - type: text
-  name: soundcloud_id
-  label: soundcloud_id
+  name: anchor
+  label: anchor
 - type: datetime
   name: date
   label: date

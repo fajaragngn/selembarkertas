@@ -7,7 +7,7 @@
             "title" : "Tentukan pilihan",
             "link" : "/tentukan-pilihan/",
             "snippet": "",
-            "soundcloud_id": "08--Tentukan-pilihan-ee77k3"
+            "anchor": "08--Tentukan-pilihan-ee77k3"
         }
         
         ,  {
@@ -15,7 +15,7 @@
             "title" : "Tidak usah risau",
             "link" : "/tidak-usah-risau/",
             "snippet": "",
-            "soundcloud_id": "07--Tidak-usah-risau-edj4km"
+            "anchor": "07--Tidak-usah-risau-edj4km"
         }
         
         ,  {
@@ -23,7 +23,7 @@
             "title" : "Hobi, Passion & Uang",
             "link" : "/hobi-passion-uang/",
             "snippet": "",
-            "soundcloud_id": "06--Hobi--Passion--Uang-eb4kji"
+            "anchor": "06--Hobi--Passion--Uang-eb4kji"
         }
         
         ,  {
@@ -31,7 +31,7 @@
             "title" : "Distraksi saat belajar",
             "link" : "/distraksi-saat-belajar/",
             "snippet": "dikala kamu sedang distraksi",
-            "soundcloud_id": "05--Distraksi-saat-belajar-eb30np"
+            "anchor": "05--Distraksi-saat-belajar-eb30np"
         }
         
         ,  {
@@ -39,7 +39,7 @@
             "title" : "Setelah lulus mau kemana? ft. mhs UPB",
             "link" : "/setelah-lulus-mau-kemana-ft.-mhs-upb/",
             "snippet": "Ngobrol santai #2",
-            "soundcloud_id": "04--Setelah-lulus-mau-kemana--ft--mhs-UPB-eamoh5"
+            "anchor": "04--Setelah-lulus-mau-kemana--ft--mhs-UPB-eamoh5"
         }
         
         ,  {
@@ -47,7 +47,7 @@
             "title" : "Seputar Teknik Informatika ft. mhs UPB",
             "link" : "/seputar-teknik-informatika-ft.-mhs-upb/",
             "snippet": "Ngobrol santai #1",
-            "soundcloud_id": "03--Seputar-Teknik-Informatika-ft--mhs-UPB-eaitgj"
+            "anchor": "03--Seputar-Teknik-Informatika-ft--mhs-UPB-eaitgj"
         }
         
         ,  {
@@ -55,7 +55,7 @@
             "title" : "Baik ke orang",
             "link" : "/baik-ke-orang/",
             "snippet": "suka ngopi, ga suka rokok",
-            "soundcloud_id": "02--Baik-ke-orang-ea6lr6"
+            "anchor": "02--Baik-ke-orang-ea6lr6"
         }
         
         ,  {
@@ -63,7 +63,7 @@
             "title" : "Kopi",
             "link" : "/kopi/",
             "snippet": "suka ngopi, ga suka rokok",
-            "soundcloud_id": "01--Kopi-e486kp"
+            "anchor": "01--Kopi-e486kp"
         }
         
     ]
