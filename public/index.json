@@ -4,18 +4,18 @@
         
          {
             "id" : "2",
-            "title" : "Kopi",
-            "link" : "/kopi/",
+            "title" : "Baik ke orang",
+            "link" : "/baik-ke-orang/",
             "snippet": "suka ngopi, ga suka rokok",
             "soundcloud_id": "10--Ragu-el4r09"
         }
         
         ,  {
             "id" : "1",
-            "title" : "",
-            "link" : "/",
-            "snippet": "<no value>",
-            "soundcloud_id": "<no value>"
+            "title" : "Kopi",
+            "link" : "/kopi/",
+            "snippet": "suka ngopi, ga suka rokok",
+            "soundcloud_id": "10--Ragu-el4r09"
         }
         
     ]

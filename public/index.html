@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+	<meta name="generator" content="Hugo 0.84.0" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title></title>
-    <meta name="description" content=" Waktu kamu gak akan cukup, kerjakan sekarang! Selamat menjadi pendengar. -  " property="og:description">
+    <title>selembarkertas</title>
+    <meta name="description" content=" Waktu kamu gak akan cukup, kerjakan sekarang! Selamat menjadi pendengar. - selembarkertas " property="og:description">
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@selembarkertas" />
     <meta name="twitter:creator" content="@selembarkertas" />
     <meta property="og:url" content=" /" />
-    <meta property="og:title" content="" />
-    <meta property="og:description" content=" Waktu kamu gak akan cukup, kerjakan sekarang! Selamat menjadi pendengar. -  " />
+    <meta property="og:title" content="selembarkertas" />
+    <meta property="og:description" content=" Waktu kamu gak akan cukup, kerjakan sekarang! Selamat menjadi pendengar. - selembarkertas " />
     <meta property="og:image" content="/img/logo.png" />
 
     <link rel="stylesheet" href="/css/main.css">
@@ -34,24 +35,77 @@
 
 
 
-<section id="main">
-  <h1></h1>
-  <div class="line"></div>
+    <main id="main">
 
- <br>
-  <iframe src="https://anchor.fm/selembarkertas/embed/episodes/" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+        <section id="player">
+            <div v-if="currentItem">
+                <iframe :src="'https://anchor.fm/selembarkertas/embed/episodes/' + currentItem.soundcloud_id" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+                <p> ${currentItem.snippet} </p>
+                <a :href="currentItem.link" class="btn">Link/Catatan </a>
+            </div>
 
-  <article id="content">
-       
-    </article>
-</section>
+            <div v-else>
+                
+                    <iframe src="https://anchor.fm/selembarkertas/embed/episodes/" height="100" width="100%" frameborder="0" scrolling="no"></iframe>
+                    <p>  </p>
+                    <a href="/posts/" class="btn">Link/Catatan </a>
+                
+            </div>
+        </section>
 
-<aside id="meta">
-    <li id="date"> Mon Jan 1, 0001
-</aside>
+        <section>
+            <input type="text" v-model="search_q" placeholder="Cari judul.." class="search">
 
-<br><hr>
-<a href="/"> &lt; Ke halaman Awal </a>
+            <div class="title">Daftar Episode</div>
+            <div class="line"></div>
+
+          <a v-for="(item, index) in filteredItems"
+               href="#" @click="play(item)" class="boxes" :class="{boxes_active:item == currentItem}" >
+             <p>Ep ${item.id}: ${item.title}</p>
+             <div class="arrow-right"></div>
+          </a>
+
+          <p>"selembarkertas" bisa juga kamu dengarkan di tempat podcast lainnya seperti spotify, apple podcast, google podcast, etc..</p>
+        </section>
+
+    </main>
+
+    <script src=https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js></script>
+    <script >
+    
+    
+    
+
+    (async () => {
+        const res = await fetch('/index.json');
+        const itemsRaw = await res.json();
+        const items = itemsRaw.data
+
+        new Vue({
+            delimiters: ['${', '}'],
+            el: '#main',
+            data: {
+                items: items,
+                currentItem: "",
+                search_q: "",
+                loading: true,
+            },
+            methods: {
+                play: function(item) {
+                    this.currentItem = item
+                }
+            },
+            computed: {
+                filteredItems: function() {
+                    let itemWithFilter = this.items.filter((item) => {
+                        return item.title.toLowerCase().includes(this.search_q.toLowerCase())
+                    })
+                    return itemWithFilter
+                }
+            }
+        })
+    })(); 
+</script>
 
 
 
