@@ -15,7 +15,7 @@ body {
 	background: #181E25;
 	width: 100%;
 	min-height: 100%;
-	max-width: 400px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding: 20px 5% 60px
 }
@@ -96,11 +96,11 @@ header img {
 }
 
 .boxes_active {
-	color: #A168FB
+	color: #FFA21E
 }
 
 .boxes_active .arrow-right {
-	border-left-color: #A168FB
+	border-left-color: #FFA21E
 }
 
 .arrow-right {
@@ -127,7 +127,7 @@ footer {
 	padding: 8px 5%;
 	background: #2A343E;
 	width: 100%;
-	max-width: 400px
+	max-width: 700px
 }
 
 @media only screen and (max-width: 600px) {
