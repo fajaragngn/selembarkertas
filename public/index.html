@@ -49,6 +49,7 @@
                     <p>  </p>
                 
             </div>
+            <span>Dengerin juga di <a style="text-decoration: underline;" href="https://open.spotify.com/show/5BWnbxhBS2JqTRkphmSI0B?si=BJSdSXatSO2zL2yoOLFZgQ&nd=1">Spotify</a> / <a style="text-decoration: underline;" href="https://podcasts.apple.com/id/podcast/selembarkertas/id1467383206">Apple podcast</a></span>
         </section>
 
         <section>
@@ -59,7 +60,7 @@
 
           <a v-for="(item, index) in filteredItems"
                href="#" @click="play(item)" class="boxes" :class="{boxes_active:item == currentItem}" >
-             <p>Ep ${item.id}: ${item.title}</p>
+             <p>Eps ${item.id}: ${item.title}</p>
              <div class="arrow-right"></div>
           </a>
 
