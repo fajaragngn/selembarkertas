@@ -20,3 +20,5 @@ fields:
 - type: list
   name: aliases
   label: aliases
+pages:
+- content/posts/seputar-teknik-informatika-ft.mhs-upb.md
