@@ -15,7 +15,7 @@ body {
 	background: #181E25;
 	width: 100%;
 	min-height: 100%;
-	max-width: 450px;
+	max-width: 400px;
 	margin: 0 auto;
 	padding: 20px 5% 60px
 }
@@ -124,10 +124,10 @@ footer {
 	left: 0px;
 	transform: translate(-50%);
 	margin-left: 50%;
-	padding: 8px 5%;
+	padding: 12px 5%;
 	background: #2A343E;
 	width: 100%;
-	max-width: 450px
+	max-width: 400px
 }
 
 @media only screen and (max-width: 600px) {
@@ -136,6 +136,6 @@ footer {
 		margin: 0 auto
 	}
 	footer{
-		width: 90%;
+		width: 100%;
 	}
 }
