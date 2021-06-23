@@ -1,7 +1,7 @@
 html {
 	background: #0E141B;
 	color: #fcfcfc;
-	font-family: "Source Sans Pro", "sans-serif";
+	font-family: "Oxygen", "sans-serif";
 	box-sizing: border-box;
 	height: 100%
 }
@@ -15,7 +15,7 @@ body {
 	background: #181E25;
 	width: 100%;
 	min-height: 100%;
-	max-width: 500px;
+	max-width: 450px;
 	margin: 0 auto;
 	padding: 20px 5% 60px
 }
@@ -96,11 +96,11 @@ header img {
 }
 
 .boxes_active {
-	color: #FFA21E
+	color: #43A4BD
 }
 
 .boxes_active .arrow-right {
-	border-left-color: #FFA21E
+	border-left-color: #43A4BD
 }
 
 .arrow-right {
@@ -127,7 +127,7 @@ footer {
 	padding: 8px 5%;
 	background: #2A343E;
 	width: 100%;
-	max-width: 500px
+	max-width: 450px
 }
 
 @media only screen and (max-width: 600px) {
