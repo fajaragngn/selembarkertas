@@ -52,16 +52,16 @@
         
         ,  {
             "id" : "4",
-            "title" : "Setelah lulus mau kemana? ft. mhs UPB",
-            "link" : "/setelah-lulus-mau-kemana-ft.-mhs-upb/",
+            "title" : "Setelah lulus mau kemana?",
+            "link" : "/setelah-lulus-mau-kemana/",
             "snippet": "Ngobrol santai #2",
             "anchor": "04--Setelah-lulus-mau-kemana--ft--mhs-UPB-eamoh5"
         }
         
         ,  {
             "id" : "3",
-            "title" : "Seputar Teknik Informatika ft. mhs UPB",
-            "link" : "/seputar-teknik-informatika-ft.-mhs-upb/",
+            "title" : "Seputar Teknik Informatika",
+            "link" : "/seputar-teknik-informatika/",
             "snippet": "Ngobrol santai #1",
             "anchor": "03--Seputar-Teknik-Informatika-ft--mhs-UPB-eaitgj"
         }
@@ -70,7 +70,7 @@
             "id" : "2",
             "title" : "Baik ke orang",
             "link" : "/baik-ke-orang/",
-            "snippet": "suka ngopi, ga suka rokok",
+            "snippet": "Menjadi manusia yang berguna",
             "anchor": "02--Baik-ke-orang-ea6lr6"
         }
         
